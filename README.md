@@ -5,6 +5,8 @@ I did the project because i would like to update hardware of "good-old" 8-bit PC
 binary variants for my goals, i did not found sources for my modifications. Eventualy, i restored it from scratch by reverce enginering
 of the original binary file.
 
+I described and commented it well enouth for future modifications and your education goals.
+
 # Tools for compile sources are
 
 Tools for compile sources are:
