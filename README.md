@@ -9,7 +9,7 @@ I described and commented it well enouth for future modifications and your educa
 
 # Tools for compile sources are
 
-Tools for compile sources are:
+Tools for cross-compile sources are:
 https://github.com/vhelin/wla-dx
 
 You may build it from sources for platforms:
