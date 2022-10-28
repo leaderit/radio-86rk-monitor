@@ -15,7 +15,7 @@ You may build it from sources for platforms:
     Build Status - Windows MSVC
 
 
-For mac os USE:
+For Mac OS USE:
 brew install wla-dx
 
 Docs are here:
