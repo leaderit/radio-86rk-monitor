@@ -31,25 +31,25 @@ The Monitor is a system programm with a command line interface,
 booted after System On or Reset.
 Monitor is placed in system's Read-Only Memory (ROM)
 
-Monitor Commands
+## Monitor Commands
 
-    Memory Operations
-        D<Start_Address>,<End_Address> - Display memory content in hexadecimal
-        L<Start_Address>,<End_Address> - Display memory content in ASCII
-        F<Start_Address>,<End_Address>,<Value> - Fill memory with the specified value
-        M<Address> - Modify memory content
-        T<Start_Address>,<End_Address>,<Destination_Start_Address> - Copy memory block to destination
-        C<Start_Address>,<End_Address>,<Destination_Start_Address> - Compare memory block with destination
-        S<Start_Address>,<End_Address>,<Value> - Search memory for a value
-        R<ROM_Start_Address>,<ROM_End_Address>,<Destination_Start_Address> - Read from the ROM connected to the Parallel interface to memory
+- Memory Operations
+    - D<Start_Address>,<End_Address> - Display memory content in hexadecimal
+    - L<Start_Address>,<End_Address> - Display memory content in ASCII
+    - F<Start_Address>,<End_Address>,<Value> - Fill memory with the specified value
+    - M<Address> - Modify memory content
+    - T<Start_Address>,<End_Address>,<Destination_Start_Address> - Copy memory block to destination
+    - C<Start_Address>,<End_Address>,<Destination_Start_Address> - Compare memory block with destination
+    - S<Start_Address>,<End_Address>,<Value> - Search memory for a value
+    - R<ROM_Start_Address>,<ROM_End_Address>,<Destination_Start_Address> - Read from the ROM connected to the Parallel interface to memory
 
-    Run Control
-        G<Start_Address>[,End_Address] - Run code, optionally stop at the specified address
-        X - Display and modify registers
+- Run Control
+    - G<Start_Address>[,End_Address] - Run code, optionally stop at the specified address
+    - X - Display and modify registers
 
-    Cassette Input/Output
-        O<Start_Address>,<End_Address>[,Speed] - Write memory to cassette. Default speed is 1Dh / 1200 bps
-        I[Offset][,Speed] - Read data from a tape to memory at the specified offset
+- Cassette Input/Output
+    - O<Start_Address>,<End_Address>[,Speed] - Write memory to cassette. Default speed is 1Dh / 1200 bps
+    - I[Offset][,Speed] - Read data from a tape to memory at the specified offset
 
 # The Monitor Tape Records
 
@@ -181,6 +181,6 @@ Monitor's format of a tape record:
    - Input: HL - Address of highest address of memory, avalable for a user's programm
    - Output:  None
 
-# Happy Hobying!
+**Happy Hobying!**
 
-# Valerii Grazhdankin
+*Valerii Grazhdankin*
