@@ -1,5 +1,5 @@
 # Radio-86rk-monitor
-Monitor for Radio-86RK (Retro Soviet hobbyist computer), Rewrited from Scratch, Well Described, Binary Identical with Original One.
+Monitor for Radio-86RK (Retro Soviet hobbyist computer), Rewrited from Scratch, Well Described, Binary Identical to Original One.
 
 # Tools for compile sources are
 
