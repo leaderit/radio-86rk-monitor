@@ -80,15 +80,11 @@ Monitor's format of a tape record:
         - 8002h - Channel C data
         - 8003h - Control word
 
-    - 0A000h - 0AFFFh - 8255A PPI (Parallel Interface)
+    - 0A000h - 0AFFFh - 8255A PPI (ROM Disk and Parallel Interface)
         - 0A000h - Channel A data
         - 0A001h - Channel B data
         - 0A002h - Channel C data
         - 0A003h - Control word
-
-    - 0B000h - 0BFFFh - 8251A USART
-        - 0B000h - Data register
-        - 0B001h - Command register
 
     - 0C000h - 0CFFFh - 8275 CRT Controller
         - 0C000h - Data Register
