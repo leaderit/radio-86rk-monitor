@@ -9,7 +9,7 @@ I described and commented it well enouth for future modifications and your educa
 
 # Tools for compile sources are
 
-Tools for compile sources are:
+Tools for cross-compile sources are:
 https://github.com/vhelin/wla-dx
 
 You may build it from sources for platforms:
@@ -21,7 +21,7 @@ You may build it from sources for platforms:
     Build Status - Windows MSVC
 
 
-For Mac OS USE:
+For Mac OS use:
 brew install wla-dx
 
 Docs are here:
@@ -40,24 +40,27 @@ Monitor is placed in system's Read-Only Memory (ROM)
 ## Monitor Commands
 
 - Memory Operations
-    - D<Start_Address>,<End_Address> - Display memory content in hexadecimal
-    - L<Start_Address>,<End_Address> - Display memory content in ASCII
-    - F<Start_Address>,<End_Address>,<Value> - Fill memory with the specified value
-    - M<Address> - Modify memory content
-    - T<Start_Address>,<End_Address>,<Destination_Start_Address> - Copy memory block to destination
-    - C<Start_Address>,<End_Address>,<Destination_Start_Address> - Compare memory block with destination
-    - S<Start_Address>,<End_Address>,<Value> - Search memory for a value
-    - R<ROM_Start_Address>,<ROM_End_Address>,<Destination_Start_Address> - Read from the ROM connected to the Parallel interface to memory
-
+```
+    D<Start_Address>,<End_Address> - Display memory content in hexadecimal
+    L<Start_Address>,<End_Address> - Display memory content in ASCII
+    F<Start_Address>,<End_Address>,<Value> - Fill memory with the specified value
+    M<Address> - Modify memory content
+    T<Start_Address>,<End_Address>,<Destination_Start_Address> - Copy memory block to destination
+    C<Start_Address>,<End_Address>,<Destination_Start_Address> - Compare memory block with destination
+    S<Start_Address>,<End_Address>,<Value> - Search memory for a value
+    R<ROM_Start_Address>,<ROM_End_Address>,<Destination_Start_Address> - Read from the ROM connected to the Parallel interface to memory
+```
 - Run Control
-    - G<Start_Address>[,End_Address] - Run code, optionally stop at the specified address
-    - X - Display and modify registers
-    - U - Run Expanded ROM from 0F000h Address
-
+```
+    G<Start_Address>[,End_Address] - Run code, optionally stop at the specified address
+    X - Display and modify registers
+    U - Run Expanded ROM from 0F000h Address
+```
 - Cassette Input/Output
-    - O<Start_Address>,<End_Address>[,Speed] - Write memory to cassette. Default speed is 1Dh / 1200 bps
-    - I[Offset][,Speed] - Read data from a tape to memory at the specified offset
-
+```
+    O<Start_Address>,<End_Address>[,Speed] - Write memory to cassette. Default speed is 1Dh / 1200 bps
+    I[Offset][,Speed] - Read data from a tape to memory at the specified offset
+```
 
 # The Monitor Tape Records
 
