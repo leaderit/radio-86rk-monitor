@@ -1,6 +1,10 @@
 # Radio-86rk-monitor
 Monitor for Radio-86RK (Retro Soviet hobbyist computer), Rewrited from Scratch, Well Described, Binary Identical to Original One.
 
+I did the project because i would like to update hardware of "good-old" 8-bit PC, but it needs to update firmware. I did not found
+binary variants for my goals, i did not found sources for my modifications. Eventualy, i restored it from scratch by reverce enginering
+of the original binary file.
+
 # Tools for compile sources are
 
 Tools for compile sources are:
